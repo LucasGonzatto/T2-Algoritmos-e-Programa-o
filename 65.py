@@ -1,0 +1,6 @@
+texto = input("Digite o texto: ")
+inicio = int(input("Índice inicial: "))
+fim = int(input("Índice final: "))
+inicio = max(0, inicio)
+fim = min(len(texto), fim)
+print("Substring:", texto[inicio:fim])
